@@ -1,0 +1,124 @@
+body {
+    background-color: rgb(151, 212, 214);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: brown;
+    padding: 0;
+}
+
+h1, h2, img{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+  }
+
+.divprincip{
+    size: 80%;
+    align-items: center;
+}
+
+/* partie index.html */
+
+#laboutique{
+    color: rgb(131, 2, 2);
+    text-decoration: underline; 
+    text-decoration-thickness: 2px; 
+    text-decoration-style: solid; 
+    text-decoration-color: rgb(0, 0, 0); 
+    margin-bottom: 20px; 
+    align-items: center;
+}
+
+#laboutique:hover {
+    color: rgb(0, 102, 255);
+    text-decoration-color: blue;
+}
+
+.img {
+    border-radius: 10px;
+}
+
+.h2index {
+    color: rgb(131, 2, 2);
+    text-decoration: underline; 
+    text-decoration-thickness: 2px; 
+    text-decoration-style: solid; 
+    text-decoration-color: rgb(0, 0, 0); 
+    margin-bottom: 20px; 
+    align-items: center;
+    margin: 10px;
+}
+
+#divprincipindex {
+    text-align: justify;
+}
+
+#listcarpri {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.listcar {
+    background-color: aliceblue;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 15px;
+    border-radius: 5px;
+}
+ /* Ne fonctionne pas */
+.liengui {
+    color: #4400ff;
+    text-decoration: none;
+}
+
+ /* Ne fonctionne pas */
+.liengui :hover {
+    text-decoration:underline;
+    text-decoration-color: yellow;
+    
+}
+
+/* partie Jeux.html */
+
+table {
+    size: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    border-collapse: collapse;
+}
+
+#caption {
+    font-style: italic;
+    size: 20px;
+    text-decoration: underline;
+    margin: 10px;
+}
+
+#quatrecolone {
+    padding: 10px;
+}
+
+button {
+    background-color: rgba(119, 155, 255, 0.514);
+    color: rgb(107, 0, 0);
+    font-weight: bold;
+    text-decoration: underline;
+    size: 16px;
+    border-radius: 50px;
+    border-style: none;
+}
+
+button:hover {
+    background-color: red;
+    color: black;
+}
+
+
